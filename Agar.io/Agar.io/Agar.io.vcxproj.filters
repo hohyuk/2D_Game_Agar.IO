@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.GameFramework">
+      <UniqueIdentifier>{18e6edfd-e0de-4a32-bbb4-7fc0f11878fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{a4258bfb-190b-48d1-832d-b9e367fe3662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{3529f718-fe9d-47c9-9327-58351ee993a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.GameScene">
+      <UniqueIdentifier>{9f9d1ef4-82b7-43c6-aad2-9e5dd781c339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.GameObj">
+      <UniqueIdentifier>{c2d19c63-8373-421f-a540-fd7e9b76fc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.GameObj\01.Player">
+      <UniqueIdentifier>{e143c374-50d6-4998-a325-787cd5d1f85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.GameObj\02.Virus">
+      <UniqueIdentifier>{6a02d6bd-2d2a-4a47-8517-c80f41ea9fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.GameObj\03.Item">
+      <UniqueIdentifier>{ff3c5238-e526-494b-9537-6048e3a46617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.GameObj\04.Trap">
+      <UniqueIdentifier>{9e2739d9-9073-4c48-b2c4-62a248c15dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.BitMap">
+      <UniqueIdentifier>{1fd0d60d-5715-489b-853b-a9171636d8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.OverScene">
+      <UniqueIdentifier>{1c620e35-5730-481b-8961-48672ef55ed5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Agar.io.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>01.GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>02.Scene\01.OverScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>02.Scene\02.GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>03.Object\01.GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.Object\01.GameObj\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03.Object\01.GameObj\03.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>03.Object\01.GameObj\04.Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Virus.h">
+      <Filter>03.Object\01.GameObj\02.Virus</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>04.BitMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Agar.io.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>01.GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>02.Scene\01.OverScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>02.Scene\02.GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>03.Object\01.GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.Object\01.GameObj\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03.Object\01.GameObj\03.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>03.Object\01.GameObj\04.Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Virus.cpp">
+      <Filter>03.Object\01.GameObj\02.Virus</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>04.BitMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Agar.io.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Agar.io.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
